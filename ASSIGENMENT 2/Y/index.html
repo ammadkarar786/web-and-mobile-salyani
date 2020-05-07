@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>SAYLANI FOAM</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <div>
+        <img src="Saylani-logo.png" alt="Saylani-logo">
+        <p id="heading" >student registration foam</p>
+    </div>
+</center>
+
+ <form action="thank.html">
+     <div id="main_body" >
+        <table>
+            <tr> 
+                <th width="200px" ></th>
+                <th></th>
+            </tr>
+            <tr> <!-- firstname -->
+                <td> first name</td>
+                <td><input  type="text" name="firstname" class="box" placeholder="enter first name" maxlength="30" required="required" > <span class="note" >(max 30 character a-z and A-Z)</span> </td>
+            </tr>
+            <tr> <!-- SECOND NAME -->
+                <td> SECOND name</td>
+                <td><input type="text" name="secondname" class="box" placeholder="enter second name" maxlength="30" > <span class="note" >(max 30 character a-z and A-Z)</span> </td>
+            </tr>
+            <tr> <!-- date of brith -->
+                <td> date of birth</td>
+                <td><input type="date" name="dob" class="box" placeholder="DD/MM/YYYY" maxlength="30" >  </td>
+            </tr> 
+            <tr> <!-- EMAIL -->
+                <td> E-mail</td>
+                <td><input type="email" name="email" class="box" placeholder="enter email address" maxlength="30" >  </td>
+            </tr> 
+            <tr> <!-- MOBILE NUMBER -->
+                <td> mobile number</td>
+                <td><input type="text" name="phone" class="box" placeholder="enter mobile number" required="required" maxlength="10" > <span class="note" >(10 digit number)</span> </td>
+            </tr>
+            <tr> <!-- gender -->
+                <td>gender </td>
+                <td>  <span class="box" ><label for="male" >male</label> <input type="radio" name="gender" for="male" value="male" > <label for="female">female </label> <input type="radio" name="gender" for="female" value="female"> </span> </td>
+            </tr>       
+                <!--address  -->
+            <tr>
+                <td id="add" >ADDRESS</td>
+                <td  > <textarea style="color: black;" name="address" id="address" cols="30" rows="10"  ></textarea> </td>
+            </tr>
+            <tr> <!-- city -->
+                <td> city</td>
+                <td><input type="text" name="city" class="box" placeholder="enter city name" maxlength="30" > <span class="note" >(max 30 character a-z and A-Z)</span> </td>
+            </tr>
+            <tr> <!-- pin code -->
+                <td> pincode</td>
+                <td><input type="text" name="pincode" class="box" placeholder="enter piincode" maxlength="30" > <span class="note" >(6 digit number)</span> </td>
+            </tr>    
+            <tr> <!-- state -->
+                <td> state</td>
+                <td><input type="text" name="state" class="box" placeholder="enter state" maxlength="30" > <span class="note" >(max 30 character a-z and A-Z)</span> </td>
+            </tr>
+            <tr> <!-- country -->
+                <td> country</td>
+                <td><input type="text" name="country" class="box" placeholder="enter country" maxlength="30" >  </td>
+            </tr>
+            <tr> <!-- hobbies -->
+                <td> hobbies</td>
+                <td><label for="drawing"> drawing <input type="checkbox" for="drawing" > </label>
+                    <label for="singing"> singing <input type="checkbox" for="singing" > </label>
+                    <label for="dancing"> dancing <input type="checkbox" for="dancing"> </label>
+                    <label for="skecting"> sketching <input type="checkbox" for="skectching"> </label><br> 
+                    <label for="other"> other <input type="checkbox" for="other"> <input style="color: black;" type="text" name="other" id=""> </label>
+                </td>
+            </tr>
+            <tr> <!-- qualification    -->
+                <td style="vertical-align: top;" >qualification</td>
+                <td> 
+                    <!-- second table qualification -->
+                    <div style="color: black;" > 
+                  <table style="text-decoration-color: black;" id="table2" >
+                      <tr style="line-height: 30px;" >
+                          <th>s.no</th>
+                          <th>examintaion</th>
+                          <th width="150px" >board</th>
+                          <th width="150px"  >percentage</th>
+                          <th width="150px"  >year of passing</th>
+                        </tr>
+                        <tr style="line-height: 0px;" >
+                            <td>1</td>
+                            <td style="text-transform: capitalize;"  > class x </td>
+                            <td> <input style="color: black;"  type="text" name="board"  maxlength="10" > </td>
+                            <td> <input style="color: black;"  type="number" name="percentage" maxlength="2" > </td>
+                            <td><input  style="color: black;" type="number" name="year" max="4"></td>
+                        </tr>
+                        <tr style="line-height: 0px;" >
+                            <td>2</td>
+                            <td style="text-transform: capitalize;"  > class x11 </td>
+                            <td> <input style="color: black;"  type="text" name="board" maxlength="10" > </td>
+                            <td> <input style="color: black;"  type="number" name="%" maxlength="2" > </td>
+                            <td><input  style="color: black;" type="number" name="yop" maxlength="4"></td>
+                        </tr>
+                        <tr style="line-height: 0px;" >
+                            <td>3</td>
+                            <td style="text-transform: capitalize;"  > graduation </td>
+                            <td> <input style="color: black;"  type="text" name="board" maxlength="10" > </td>
+                            <td> <input style="color: black;"  type="number" name="%" maxlength="2" > </td>
+                            <td><input  style="color: black;" type="number" name="yop" maxlength="4"></td>
+                        </tr>
+                        <tr style="line-height: 0px;" >
+                            <td>4</td>
+                            <td style="text-transform: capitalize;"  > master </td>
+                            <td> <input style="color: black;"  type="text" name="board" maxlength="10" > </td>
+                            <td> <input style="color: black;"  type="number" name="%" maxlength="2" > </td>
+                            <td><input  style="color: black;" type="number" name="yop" maxlength="4"></td>
+                        </tr> 
+                        <tr style="line-height: 10px;" >
+                            <td></td>
+                            <td> </td>
+                            <td style="text-align: center; text-transform: lowercase;" >(10 char max) </td>
+                            <td style="text-transform: lowercase; text-align: center;" > (upto 2 decimal ) </td>
+                            
+                        </tr>
+                  </table>
+                </div>
+                </td>
+            </tr>
+            <tr>
+<td style="line-height: 15px; font-family: Arial, Helvetica, sans-serif;"  >  <pre>course 
+applied for</pre> </td>
+                <td style="text-transform: none;" > BCA <input type="radio" name="COURSE"> B.Com <input type="radio" name="COURSE"> BSc <input type="radio" name="COURSE"> BA <input type="radio" name="COURSE"> </td>
+            </tr>
+           </table>
+           <center>
+                <input style="color: black;" type="submit" value="Submit">
+                <input style="color: black;" type="reset" value="Reset">
+           </center>
+        </div>
+ </form>
+
+</body>
+</html>

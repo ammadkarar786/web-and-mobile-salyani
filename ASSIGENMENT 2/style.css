@@ -1,0 +1,41 @@
+*{
+    text-transform: uppercase;
+    color: white;
+    
+}
+#heading{
+    text-transform: uppercase;
+    font-size: larger;
+    color: blue;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#main_body{
+    background-color: blueviolet ;
+}
+.box{
+    text-transform: capitalize;
+    color: black;
+}
+.note{
+    text-transform: none;
+}
+tr{
+    line-height: 40px;
+}
+label{
+    text-transform: capitalize;
+  
+}
+#add{
+    vertical-align: top;
+}
+th{
+    text-transform: capitalize;
+}
+#table2{
+    
+   color: black;
+    line-height: normal;   
+    line-height: 0px;
+}
