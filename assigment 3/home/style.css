@@ -56,3 +56,42 @@
     
     .carousel-multi-item-2 .card img {
     border-radius: 2px; }
+    .fa {
+        padding: 5px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+      
+      .fa:hover {
+          opacity: 1;
+      }
+      .fa-facebook {
+        background:#3B5998;
+        color: white;
+       
+      }  
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }    
+      .fa-instagram {
+        background:red;
+        color: white;
+      }
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      .dropdown:hover>.dropdown-menu {
+        display: block;
+      }
+      
+      .dropdown>.dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+          pointer-events: none;
+      }
+      
