@@ -1,7 +1,8 @@
-/* 
+
 body{
-  background-color: black !important;
-} */
+  background-image: url(/image/background.jpg);
+  background-repeat: no-repeat;
+}
 .box{
     border: 2px outset gray;
     width: 200px;
@@ -11,4 +12,7 @@ body{
     width: 100%;
     background-color: grey;
     color: #fff;
+}
+.in{
+  text-align: left !important;
 }

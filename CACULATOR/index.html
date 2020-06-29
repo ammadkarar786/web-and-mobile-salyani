@@ -8,49 +8,50 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">   
 </head>
 <body>
-    <div class="box bg-light " >
-      <div id="answer" class="answer" >
+    <div class="box bg-light shadow-lg  bg-white rounded " >
+      <div class="answer" >
         <div class="input-group input-group-lg">
-            <input type="text" class="form-control" id="answer" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+            <input type="text" class="form-control in" id="answer" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
           </div>
       </div>
       <div id="keyboard" >
           <div>
             <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                 <div class="btn-group m-2" role="group" aria-label="First group">
-                  <button type="button" class="btn btn-secondary rounded m-1">1</button>
-                  <button type="button" class="btn btn-secondary rounded m-1 ">2</button>
-                  <button type="button" class="btn btn-secondary rounded m-1 ">3</button>
-                  <button type="button" class="btn btn-secondary rounded m-1 ">X</button>
+                  <button type="button" class="btn btn-secondary rounded m-1 " onclick="getNumber('1')" > 1</button>
+                  <button type="button" class="btn btn-secondary rounded m-1 " onclick="getNumber('2')"  >2</button>
+                  <button type="button" class="btn btn-secondary rounded m-1 " onclick="getNumber('3')"  >3</button>
+                  <button type="button" class="btn btn-secondary rounded m-1 " onclick="getNumber('*')"  >X</button>
                 </div>
           </div>
           <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
             <div class="btn-group m-2" role="group" aria-label="First group">
-              <button type="button" class="btn btn-secondary rounded m-1">4</button>
-              <button type="button" class="btn btn-secondary rounded m-1 ">5</button>
-              <button type="button" class="btn btn-secondary rounded m-1 ">6</button>
-              <button type="button" class="btn btn-secondary rounded m-1 ">-</button>
+              <button type="button" class="btn btn-secondary rounded m-1" onclick="getNumber('4')"  >4</button>
+              <button type="button" class="btn btn-secondary rounded m-1 " onclick="getNumber('5')"  >5</button>
+              <button type="button" class="btn btn-secondary rounded m-1 " onclick="getNumber('6')"  >6</button>
+              <button type="button" class="btn btn-secondary rounded m-1 " onclick="getNumber('-')"  >-</button>
             </div>
       </div>
       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group m-2" role="group" aria-label="First group">
-          <button type="button" class="btn btn-secondary rounded m-1">7</button>
-          <button type="button" class="btn btn-secondary rounded m-1 ">8</button>
-          <button type="button" class="btn btn-secondary rounded m-1 ">9</button>
-          <button type="button" class="btn btn-secondary rounded m-1 ">+</button>
+          <button type="button" class="btn btn-secondary rounded m-1" onclick="getNumber('7')"  >7</button>
+          <button type="button" class="btn btn-secondary rounded m-1 " onclick="getNumber('8')"  >8</button>
+          <button type="button" class="btn btn-secondary rounded m-1 " onclick="getNumber('9')"  >9</button>
+          <button type="button" class="btn btn-secondary rounded m-1 " onclick="getNumber('+')"  >+</button>
         </div>
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
             <div class="btn-group m-2" role="group" aria-label="First group">
-              <button type="button" class="btn btn-secondary rounded m-1">0</button>
-              <button type="button" class="btn btn-secondary rounded m-1 "> C </button>
-              <button type="button" class="btn btn-secondary rounded m-1 ">/</button>
-              <button type="button" class="btn btn-secondary rounded m-1 ">%</button>
+              <button type="button" class="btn btn-secondary rounded m-1" onclick="getNumber('0')"  >0</button>
+              <button type="button" class="btn btn-secondary rounded m-1 " onclick="getClear()"  > C </button>
+              <button type="button" class="btn btn-secondary rounded m-1 " onclick="getResult()"  >=</button>
+              <button type="button" class="btn btn-secondary rounded m-1 " onclick="getNumber('/')"  >/</button>
             </div>
   
     </div>
       </div>
     </div>
-
+  </div>
+  
 
   <script src="app.js"></script>  
 </body>
