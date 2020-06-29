@@ -1,0 +1,14 @@
+/* 
+body{
+  background-color: black !important;
+} */
+.box{
+    border: 2px outset gray;
+    width: 200px;
+    margin: 0 auto;
+}
+.answer{
+    width: 100%;
+    background-color: grey;
+    color: #fff;
+}
